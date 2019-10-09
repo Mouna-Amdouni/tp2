@@ -1,0 +1,7 @@
+<p>partie2 works!</p>
+<button bind-disabled="actif" (click)="onAfficher()">Afficher</button>
+<input type ="text" (keyup.enter)="onKeyUp($event)" />
+{{contenu}}
+<input type ="text" #textbox />
+<button (click)="onAfficherContenu(textbox.value)">somme</button>
+{{val}}
